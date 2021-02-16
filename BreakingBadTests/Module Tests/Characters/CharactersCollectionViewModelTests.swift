@@ -8,7 +8,7 @@
 import XCTest
 @testable import BreakingBad
 
-// Improve: Abstract away pattern of running test, mapping states and checking output
+// Improve: Abstract away pattern of running test, mapping states and checking output.
 class CharactersCollectionViewModelTests: XCTestCase {
 
     private struct Components {

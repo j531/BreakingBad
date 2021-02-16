@@ -22,7 +22,7 @@ final class CharactersHTTPService: CharactersWebService {
     func getCharacters(then handler: @escaping (Result<[Character], RequestError>) -> Void) {
         let url = makeURL(withPath: "characters")
 
-        //  Improve: Abstract all this away...
+        //  Improve: Abstract all this away.
         let task = URLSession.shared.dataTask(with: url) { (data, _, error) in
             guard error == nil else {
                 handler(.failure(.http))
