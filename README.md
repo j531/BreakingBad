@@ -1,4 +1,4 @@
-Tiny experiment with:
+Tiny iOS experiment with:
 - [`UICollectionViewCompositionalLayout`](BreakingBad/Modules/Characters/CharactersCollectionViewController.swift).
 - [MVVM-C](BreakingBad/Modules/Characters/).
 - [Explicit module `State` decleration](BreakingBad/Modules/Characters/CharactersCollectionViewModel.swift).
